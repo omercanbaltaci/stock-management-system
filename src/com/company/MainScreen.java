@@ -62,12 +62,12 @@ public class MainScreen extends JFrame {
     int placeHolder = 0;
     int tempMonth;
 
-    public static final String ACCOUNT_SID = "ACc480008526b6c40d973321409e610cf5";
-    public static final String AUTH_TOKEN = "8c0eb7e73739740dd5fa9de6cb0d9ea0";
+    public static final String ACCOUNT_SID = "***********";
+    public static final String AUTH_TOKEN = "***********";
 
-    private static final String SMTP_SERVER = "smtp.gmail.com";
-    private static final String USERNAME = "omercanbaltaci905@gmail.com";
-    private static final String PASSWORD = "c*V@d84_JR3Pp)v";
+    private static final String SMTP_SERVER = "***********";
+    private static final String USERNAME = "***********";
+    private static final String PASSWORD = "***********";
 
     private static final String EMAIL_FROM = "omercanbaltaci905@gmail.com";
 
@@ -131,7 +131,7 @@ public class MainScreen extends JFrame {
             if(!bitenUrunler.isEmpty()) {
                 Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
                 bitenUrunlerMessage = Arrays.toString(bitenUrunler.toArray()).replace("[", "").replace("]", "");
-                Message message = Message.creator(new PhoneNumber("+905438981600"), new PhoneNumber("+13345106793"), "\n\nTükenmiş ürünler: \n" + bitenUrunlerMessage).create();
+                Message message = Message.creator(new PhoneNumber("********"), new PhoneNumber("+13345106793"), "\n\nTükenmiş ürünler: \n" + bitenUrunlerMessage).create();
                 System.out.println(message.getSid());
             }
         });
