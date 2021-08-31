@@ -69,7 +69,7 @@ public class MainScreen extends JFrame {
     private static final String USERNAME = "***********";
     private static final String PASSWORD = "***********";
 
-    private static final String EMAIL_FROM = "omercanbaltaci905@gmail.com";
+    private static final String EMAIL_FROM = "*************";
 
     private static final String EMAIL_SUBJECT = "Belgeler";
     private static final String EMAIL_TEXT = "";
