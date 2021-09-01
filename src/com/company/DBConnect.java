@@ -8,7 +8,7 @@ class DBConnect {
             String driver = "com.mysql.cj.jdbc.Driver";
             String url = "jdbc:mysql://localhost:3306/stokyonetim?serverTimezone=GMT";
             String username = "root";
-            String password = "04101994";
+            String password = "*******";
 
             Class.forName(driver);
             Connection con = DriverManager.getConnection(url, username, password);
